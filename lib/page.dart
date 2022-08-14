@@ -60,9 +60,10 @@ class HomePage extends StatelessWidget {
                     activeIndex: _current.value,
                     count: imagePath.length,
                     effect: const ExpandingDotsEffect(
+                        spacing: 20,
                         dotColor: Color(0x66FFFFFF),
                         activeDotColor: Color(0xFFFFFFFF),
-                        dotWidth: 8,
+                        dotWidth: 24,
                         dotHeight: 8),
                   );
                 }),
